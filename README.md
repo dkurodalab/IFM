@@ -15,7 +15,9 @@ or the menu File>New Molecule.
 B.	Run the procedure, you must first load the procedure in the TK console:
 
 B1.	click Extensions>Tk console; a new window will open
+
 B2.	Change the folder (for example cd C:/my_files/)
+
 B3.	Load procedure by running
 
 ***source frames_prep.tcl***
