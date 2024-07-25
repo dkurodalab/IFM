@@ -3,6 +3,7 @@ IFM method general procedure
 1.	Run the cMD for the probe into the selected solvent. Here, an example for NMA in water, for which a short trajectory containing five frames is provided (nma_h2o_short_traj.pdb file), where the trajectory has been wrapped around the NMA.
 2.	From the g(r) of the cMD run, select the desired number of solvation shells for the molecular probe. In this example, three salvation shells are selected (122 molecules for this example).
 3.	Obtain the *.xyz files for the solvation shells with the desired number of solvent molecules. For this you can use the provided Tcl code that runs in VMD (frames_prep.tcl). Usage: 
+
 Example steps to perform the IMF method
 
 A.	Load the trajectory to VMD, either you can use the command line:
