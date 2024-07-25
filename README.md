@@ -13,6 +13,7 @@ vmd nma_h2o_short_traj.pdb
 or the menu File>New Molecule.
 
 B.	Run the procedure, you must first load the procedure in the TK console:
+
 1-	click Extensions>Tk console; a new window will open
 2-	Change the folder (for example cd C:/my_files/)
 3-	Load procedure by running
