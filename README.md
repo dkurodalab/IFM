@@ -18,11 +18,11 @@ B.	Run the procedure, you must first load the procedure in the TK console:
 2.	Change the folder (for example cd C:/my_files/)
 3.	Load procedure by running
 
-source frames_prep.tcl
+*source frames_prep.tcl*
 
 4.	Run the procedure using the following command:  
 
-solvation_shell test 122 
+*solvation_shell test 122* 
 
 This comes from using solvation_shell name #mol, where name is the name of the file and the variable #mol corresponds to the desired number of molecules, for which it will create a xyz files per each frame. The script produces a file called “name”.dat which contains a list of the residues for the closest water molecules to the NMA and their distances to it. 
 Here, the example should produce the files named
