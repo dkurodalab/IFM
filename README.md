@@ -7,6 +7,7 @@
 ## Example steps to perform the IMF method
 
 A.	Load the trajectory to VMD, either you can use the command line:
+
 ***vmd nma_h2o_short_traj.pdb***
 
 or the menu File>New Molecule.
