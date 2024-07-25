@@ -43,9 +43,10 @@ The first step will do the optimization:
 
 The second step will do the frequency calculation:
 
-   ***xtb opt_0.xtbopt.xyz --input xtb_instuctions_freq.inp --hess --namespace freq_0***
+***xtb opt_0.xtbopt.xyz --input xtb_instuctions_freq.inp --hess --namespace freq_0***
 
 This calculation produces several files per frame, where the frequencies are contained into the *.g98.out files. If everything goes according to the procedure, the following amide-I frequencies should be produced (Table 1) and can be compared with those in the zip file within the folder (\example_results\).
+
 | Frame # | Amide-I frequency cm<sup>-1</sup> |
 | --- | --- |
 | 0 | 1695.41 |
